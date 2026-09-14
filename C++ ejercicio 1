@@ -1,0 +1,11 @@
+#include <iosteam>
+using namespace std;
+int main() {
+    int X = 4,Y = 9;
+    X = X + Y;
+    Y = X - Y;
+    X = X - Y;
+    cout << "X=" << X << endl;
+    cout << "Y=" << Y << endl;
+    return 0;
+}

@@ -1,12 +1,8 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-    int A = 7;
-    int B = 3;
-    int C = ++A + B--;
-    cout << "A=" << A << endl;
-    cout << "B=" << B << endl;
+    int A = 12, B = 4;
+    int C = A/B + A % B * 2;
     cout << "C=" << C << endl;
     return 0;
 }

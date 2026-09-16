@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string nom1, nom2;
+    long long A, B;
+
+    cin >> nom1 >> A;
+    cin >> nom2 >> B;
+
+    if (A > B) {
+        cout << nom1 << "\n";
+    } else {
+        cout << nom2 << "\n";
+    }
+
+    return 0;
+}
